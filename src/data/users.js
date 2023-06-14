@@ -1,0 +1,48 @@
+const users =[
+    {
+        id:1,
+        name:"Ram",
+        email:"abcd@gmail.com",
+        age:66,
+        address:{
+            city:'bangalore',
+            pin:655009
+        },
+        bank:[
+            {
+                accNo:12344,
+                bname:"SBI",
+                type:"savings"
+            },
+            {
+                accNo:9898,
+                bname:"hdfc",
+                type:"savings"
+            }
+    ]
+    },
+    {
+        id:2,
+        name:"john",
+        email:"cbc@gmail.com",
+        age:66,
+        address:{
+            city:'bangalore',
+            pin:655009
+        },
+        bank:[
+            {
+                accNo:344,
+                bname:"BOI",
+                type:"savings"
+            },
+            {
+                accNo:79898,
+                bname:"ICICI",
+                type:"Current"
+            }
+    ]
+    }
+]
+export default users
+
